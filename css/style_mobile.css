@@ -1,0 +1,67 @@
+.title {
+  text-align: center;
+}
+header {
+  flex-direction: column;
+}
+.vp-logo {
+  justify-content: center;
+}
+header ul {
+  flex-direction: column;
+  text-align: center;
+}
+header ul li {
+  border-bottom: 1px solid #666;
+}
+vp-content h1 {
+  font-size: 1.5rem;
+}
+vp-content p {
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+/* offer */
+.offer {
+  padding: 5rem 1rem;
+  text-align: center;
+}
+.offer-list {
+  flex-direction: column;
+}
+/* who */
+.who {
+  flex-direction: column;
+}
+.who-content-text {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+/* testimonials */
+testimonials {
+  padding: 3rem 1rem;
+}
+.testimonials-elem {
+  flex-direction: column;
+}
+.testimonials-elem-profil {
+  margin: 1rem;
+}
+.p2 {
+  flex-direction: column-reverse;
+}
+.testimonials-elem-profil em {
+  text-align: center;
+}
+.testimonials-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+}
+/* contact */
+.contact {
+  padding: 5rem 1rem;
+}
+.contact-form button {
+  margin: 3rem auto 0 auto;
+}
