@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #eee;
 
   color: #333;
@@ -53,6 +53,8 @@ ul {
   min-height: 100vh;
 }
 header {
+  position: sticky;
+  top: 0;
   flex: auto;
   background: #333;
   display: flex;
@@ -77,7 +79,7 @@ header a {
   font-size: 1.9rem;
 }
 .vp-logo a {
-  font-family: 'Long Cang', sans-serif;
+  font-family: "Long Cang", sans-serif;
   font-size: 3.5rem;
   font-weight: 300;
 }
