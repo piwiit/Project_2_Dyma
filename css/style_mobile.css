@@ -2,6 +2,7 @@
   text-align: center;
 }
 header {
+  position: initial;
   flex-direction: column;
 }
 .vp-logo {
